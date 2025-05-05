@@ -16,13 +16,8 @@ theme:
     accent: deep purple
 
 plugins:
-  - mkdocstrings:
-     handlers:
-        python:
-          options: 
-           show_source: True
-           headings: 2 
-
+  - mkdocstrings
+ 
 nav:
 - Home: index.md
 - Explicacion: explanation.md
